@@ -1,0 +1,13 @@
+{
+  "id" : "26f20964-7c34-4709-8e67-3d8f3a423177",
+  "request" : {
+    "url" : "/subscription/66d5fa39-cca1-4fda-84bf-52268362c98d",
+    "method" : "DELETE"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"orderFoundInMk\":false}",
+    "transformers" : [ "response-template" ]
+  },
+  "uuid" : "26f20964-7c34-4709-8e67-3d8f3a423177"
+}

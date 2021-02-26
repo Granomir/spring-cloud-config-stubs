@@ -1,0 +1,26 @@
+{
+  "id" : "5f5ce3a6-a167-4fdf-989d-bdca5231cffe",
+  "request" : {
+    "urlPath" : "/subscription",
+    "method" : "POST",
+    "headers" : {
+      "Content-Type" : {
+        "equalTo" : "application/json"
+      }
+    },
+    "bodyPatterns" : [ {
+      "matchesJsonPath" : "$[?(@.msisdn =~ /([0-9]{11})/)]"
+    }, {
+      "matchesJsonPath" : "$[?(@.serviceGuid =~ /([a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})/)]"
+    } ]
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"billingOrderGuid\":\"ea8e4d3e-0425-4631-a4d0-b7300852dfd9\"}",
+    "headers" : {
+      "Content-Type" : "application/json"
+    },
+    "transformers" : [ "response-template" ]
+  },
+  "uuid" : "5f5ce3a6-a167-4fdf-989d-bdca5231cffe"
+}

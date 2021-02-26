@@ -1,0 +1,13 @@
+{
+  "id" : "8722ed39-8762-49b3-b8f8-e56669639334",
+  "request" : {
+    "url" : "/subscription/c9b8835e-a2c2-413e-b1cd-9bb8a4b2c9ad",
+    "method" : "DELETE"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"orderFoundInMk\":true}",
+    "transformers" : [ "response-template" ]
+  },
+  "uuid" : "8722ed39-8762-49b3-b8f8-e56669639334"
+}
