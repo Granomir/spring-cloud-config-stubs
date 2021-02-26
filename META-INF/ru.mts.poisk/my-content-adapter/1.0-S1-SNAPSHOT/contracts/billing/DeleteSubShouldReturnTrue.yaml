@@ -1,0 +1,7 @@
+request:
+  method: DELETE
+  url: /subscription/c9b8835e-a2c2-413e-b1cd-9bb8a4b2c9ad
+response:
+  status: 200
+  body:
+    orderFoundInMk: true

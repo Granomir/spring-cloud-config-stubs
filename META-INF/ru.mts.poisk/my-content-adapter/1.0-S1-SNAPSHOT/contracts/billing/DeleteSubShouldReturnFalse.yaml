@@ -1,0 +1,7 @@
+request:
+  method: DELETE
+  url: /subscription/66d5fa39-cca1-4fda-84bf-52268362c98d
+response:
+  status: 200
+  body:
+    orderFoundInMk: false

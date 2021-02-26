@@ -1,0 +1,28 @@
+request:
+  method: POST
+  urlPath: /subscription
+  body:
+    msisdn: 79166502629
+    serviceGuid: a906e6ec-eadb-4b23-9871-db089c9f788b
+  matchers:
+    body:
+      # вероятно этот валидатор работает только в стабе??? проверить в тестах консумера
+      - path: $.msisdn
+        type: by_regex
+        value: "[0-9]{11}"
+      - path: $.serviceGuid
+        type: by_regex
+        predefined: uuid
+  headers:
+    Content-Type: application/json
+response:
+  status: 200
+  body:
+    billingOrderGuid: ea8e4d3e-0425-4631-a4d0-b7300852dfd9
+  headers:
+    Content-Type: application/json
+  matchers:
+    body:
+      - path: $.billingOrderGuid
+        type: by_regex
+        predefined: uuid
