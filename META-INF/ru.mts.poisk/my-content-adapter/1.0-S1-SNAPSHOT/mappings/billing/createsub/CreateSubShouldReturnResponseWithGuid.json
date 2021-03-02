@@ -1,5 +1,5 @@
 {
-  "id" : "ee72a19c-0b80-4262-af18-583f48d204e0",
+  "id" : "111c3f3c-eeed-498e-8180-27cbc79287a4",
   "request" : {
     "urlPath" : "/subscription",
     "method" : "POST",
@@ -22,5 +22,5 @@
     },
     "transformers" : [ "response-template" ]
   },
-  "uuid" : "ee72a19c-0b80-4262-af18-583f48d204e0"
+  "uuid" : "111c3f3c-eeed-498e-8180-27cbc79287a4"
 }

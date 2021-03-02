@@ -1,5 +1,5 @@
 {
-  "id" : "c65b5fe1-a82e-4d0b-8e22-c4e5cd3fe3f7",
+  "id" : "68c3db73-5caa-45fa-adb7-3b27d51f2352",
   "request" : {
     "url" : "/subscription/c9b8835e-a2c2-413e-b1cd-9bb8a4b2c9ad",
     "method" : "DELETE"
@@ -9,5 +9,5 @@
     "body" : "{\"orderFoundInMk\":true}",
     "transformers" : [ "response-template" ]
   },
-  "uuid" : "c65b5fe1-a82e-4d0b-8e22-c4e5cd3fe3f7"
+  "uuid" : "68c3db73-5caa-45fa-adb7-3b27d51f2352"
 }
